@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="hero">
+<video autoplay loop muted id="video-background">
+<source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+</video>
+
+<div class="hero-overlay">
+<nav class="navbar">
+<span class="logo">My Portfolio</span>
+<ul class="nav-links">
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+<button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation"
+id="menu-button">
+</button>
+</nav>
+
+
+<div class="hero-content">
+            <h1>Jesang Iwahang</h1>
+            <p>Visual Interface Designer</p>
+        </div>
+    </div>
+    </header>
+</body>
+
+
+<section id="about">
+        <h2>About Me</h2>
+        <p>
+           I'm Jesang Iwahang, a Bachelor's student at Herald College with a growing interest in web design and development.<br> I focus on creating clean, intuitive, and visually appealing digital experiences.<br> Currently, I'm learning the fundamentals of front-end development and enhancing my skills by building simple, functional portfolios using tools like Sublime Text. <br>I'm continually exploring new design concepts and improving my understanding of modern web technologies to develop more engaging and user-friendly interfaces.
+        </p>
+    </section>
+
+<section id="skills">
+    <h2>My skills</h2>
+    <div class="skills-list">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">UI/UX</div>
+        <div class="skill">JavaScript</div>
+    </div>
+</section>  
+
+ <section id="projects">
+        <h2>My Projects</h2>
+        <div>
+            <img src="Foodmandu.jpeg">
+        <p>I have partially contibuted in designing this online food delivery app.<br> The development of this app utilizes the GetDeskTechnology. Foodmandu is statically the most used app for swift food delivery which includes numerous options for restauarants of all kinds.</p>
+       </div>
+
+    </section>
+
+<section id="contact">
+        <h2>Contact Me</h2>
+
+        <form id="contact-form-id">
+            <label>Name:</label><br>
+            <input type="text" id="name" placeholder="Your full name"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" id="email" placeholder="Your Email"><br><br>
+
+            <label>Message:</label><br>
+            <input type="textarea" id="message" placeholder="Enter your message"><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="form-message"></div>
+
+    </section>
+
+    <footer>
+        <p>Copyrights@2025. All Rights Reserved.</p>
+    </footer>
+
+<script src="script.js"></script>  
+</body>
+</html>
